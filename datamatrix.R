@@ -8,7 +8,7 @@
 r <- 50
 c <- 1000
 
-## Generation of matrix labels for rows and files 
+## Generation of labels for matrix rows and names
 
 collabel_prefix <- 'Gene'
 collabel_sufix <- seq(1:c)
