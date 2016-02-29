@@ -10,7 +10,7 @@
 
 random.set <- function(n_subj, n_genes){
     random.genes <- matrix(rnorm(n_subj*n_genes), ncol = n_subj)                    
-    return(random.matrix)   
+    return(random.genes)   
     
     class <- as.factor(sample(c('Normal', 'Disease'), n_subj, replace = TRUE))
 }
