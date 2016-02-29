@@ -9,7 +9,7 @@
 ## Matrix orientation: columns - subjects
 
 random.set <- function(n_subj, n_genes){
-    random.genes <- matrix(rnorm(n_subj*n_genes), ncol = n_subj)                        #Creamos una matriz con numeros sacado al azar de una distribucion normal (rnorm)
+    random.genes <- matrix(rnorm(n_subj*n_genes), ncol = n_subj)                    
     return(random.matrix)   
     
     class <- as.factor(sample(c('Normal', 'Disease'), n_subj, replace = TRUE))
